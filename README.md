@@ -1,8 +1,23 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Set Up
+- Create project
+```angular2html
+npx create-next-app my-project
+cd my-project
+```
 
-First, run the development server:
+- Install Tailwind CSS
+```angular2html
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+
+- Configure templates paths
+     - ```tailwind.config.js``` add paths.
+     - ```globals.css``` add @taiwind directives.
+  
+- run the development server:
 
 ```bash
 npm run dev
